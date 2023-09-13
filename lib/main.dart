@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:neosurge_task/views/HomePage.dart';
+import 'package:neosurge_task/views/HomeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  HomePageScreen(),
+      home:  const HomePageScreen(),
     );
   }
 }
